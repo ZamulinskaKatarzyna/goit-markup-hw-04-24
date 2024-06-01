@@ -87,6 +87,7 @@ body {
 
 .background-section-one {
   background-color: #2e2f42;
+  background-image: url(./images/people.png);
   padding: 188px 0;
   display: flex;
   align-items: center;
@@ -270,7 +271,15 @@ img {
   padding: 0 15px;
   display: flex;
   align-items: baseline;
+}
+
+.logo-paragraf {
   margin-right: 120px;
+}
+
+.social-media {
+  margin-left: 538px;
+  margin-top: 51px;
 }
 
 .social-text {
@@ -290,4 +299,6 @@ img {
 .social-links {
   width: 40px;
   height: 40px;
+  list-style-type: none;
+  display: flex;
 }
