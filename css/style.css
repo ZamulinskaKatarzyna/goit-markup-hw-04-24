@@ -213,10 +213,40 @@ body {
 }
 
 .team-icon-list {
-  display:flex;
+  display: flex;
   justify-content: center;
   gap: 24px;
 }
+
+.team-icon-link {
+  width: 40px;
+  height: 40px;
+}
+
+.team-icon-item {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-icon-item:hover,
+.team-icon-item:focus {
+  background-color: #404bbf;
+}
+
+.team-icon-item:hover,
+.team-icon-item:active {
+  background-color: #404bbf;
+}
+
+.team-icon-quality {
+  fill: #f4f4fd;
+}
+
 .foto-list-team {
   background-color: #f4f4fd;
   display: flex;
