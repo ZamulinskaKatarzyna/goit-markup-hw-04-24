@@ -217,6 +217,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  list-style-type: none;
 }
 
 .team-icon-link {
