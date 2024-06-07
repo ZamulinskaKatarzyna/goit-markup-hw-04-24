@@ -366,7 +366,7 @@ img {
   transform: translateY(0%);
 }
 
-.portfolio-items-quality:hover .port-list-text {
+.portfolio-items-quality:hover .port-list {
   transform: translateY(0%);
 }
 
