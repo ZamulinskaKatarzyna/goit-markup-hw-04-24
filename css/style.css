@@ -364,6 +364,10 @@ img {
   transform: translateY(0%);
 }
 
+.portfolio-items-quality:hover .port-list-text {
+  transform: translateY(0%);
+}
+
 .portfolio-items-quality {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
