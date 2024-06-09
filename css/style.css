@@ -60,19 +60,12 @@ body {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.main-menu-list:first-child {
+.mnl-studio {
+  position: relative;
   color: #404bbf;
 }
 
-/*.main-menu-list:first-child:hover {
-  color: #404bbf;
-}*/
-
-/*.main-menu-list:first-child:focus {
-  color: #404bbf;
-}*/
-
-.main-menu-list:first-child::after {
+.mnl-studio::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -82,6 +75,29 @@ body {
   background-color: #404bbf;
   border-radius: 2px;
 }
+
+/*.main-menu-list:first-child {
+  color: #404bbf;
+}*/
+
+/*.main-menu-list:first-child:hover {
+  color: #404bbf;
+}*/
+
+/*.main-menu-list:first-child:focus {
+  color: #404bbf;
+}*/
+
+/*.main-menu-list:first-child::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}*/
 
 .address {
   font-style: normal;
@@ -369,7 +385,7 @@ img {
   transform: translateY(0%);
 }
 
-.portfolio-items-quality:hover .port-list {
+.portfolio-items-quality:hover .port-list-text {
   transform: translateY(0%);
 }
 
@@ -379,7 +395,10 @@ img {
   border-top: none;
   display: block;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
+
 .background-section-footer {
   background-color: #2e2f42;
   padding-top: 100px;
